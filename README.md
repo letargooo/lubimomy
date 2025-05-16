@@ -1,0 +1,36 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>С Днём Рождения, любимый — Тёма Новиков</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    h1 {
+      font-size: 28px;
+      color: #f5c518;
+      margin-bottom: 30px;
+    }
+    audio {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Я буду любить тебя вечно</h1>
+  <audio controls>
+    <source src="c%20днем%20рождения,%20любимый.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудио элемент.
+  </audio>
+</body>
+</html>
